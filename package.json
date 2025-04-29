@@ -5,7 +5,10 @@
   "author": "Francesco Esposito",
   "scripts": {
     "test": "jest --coverage --verbose",
-    "updateTestSnapshots": "jest --updateSnapshot"
+    "updateTestSnapshots": "jest --updateSnapshot",
+    "serve": "resume serve --theme .",
+    "start": "resume export --resume resume.json -t . resume.pdf",
+    "start-german": "resume export --resume resume-german.json -t . resume-german.pdf"
   },
   "repository": {
     "type": "git",
@@ -16,7 +19,9 @@
   "dependencies": {
     "handlebars": "^4.7.7",
     "markdown-it": "^13.0.1",
-    "moment": "^2.29.2"
+    "moment": "^2.29.2",
+    "puppeteer": "^24.6.1",
+    "resumed": "^5.0.0"
   },
   "devDependencies": {
     "html-validate": "^8.28.0",

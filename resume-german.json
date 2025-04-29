@@ -1,0 +1,206 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Thomas Schühly",
+    "image": "https://cdn.hashnode.com/res/hashnode/image/upload/v1707208018545/196bb681-77b8-46c4-958b-d420dd8e62aa.jpeg?w=400&h=400&fit=crop&crop=faces&auto=compress,format&format=webp",
+    "email": "thomas.schuehly@outlook.com",
+    "phone": "+49 15156523909",
+    "url": "tschuehly.de",
+    "summary": "Leidenschaftlicher Softwareentwickler, spezialisiert auf skalierbare serverseitige Weblösungen mit Spring Boot, Kotlin und htmx. Speaker, Trainer und Open-Source-Enthusiast",
+    "location": {
+      "address": "Schimmelreiterweg 41",
+      "postalCode": "70567",
+      "city": "Stuttgart",
+      "countryCode": "DE"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "tschuehly",
+        "url": "https://www.linkedin.com/in/tschuehly/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "PhotoQuest",
+      "position": "Gründer",
+      "startDate": "2023-09-30",
+      "summary": "Das Fotospiel für extra Spaß und Unterhaltung auf Hochzeiten – lasst eure Gäste auf eine kreative Fotosafari gehen und erlebt ein einzigartiges digitales Fotogästebuch durch spielerische Aufgaben.",
+      "highlights": [
+        "Full-Stack Kotlin Spring Boot Webanwendung mit jOOQ",
+        "Authentifizierung mit PostgreSQL + Supabase",
+        "NodeJS PDF-Generierungsdienst mit pdfme",
+        "Deployment mit Docker und Github CI/CD"
+      ],
+      "url": "https://photoquest.wedding/",
+      "location": "Stuttgart, Baden-Württemberg, Deutschland"
+    },
+    {
+      "name": "Thomas Schühly - IT Consulting",
+      "position": "Freelance Softwareentwickler",
+      "startDate": "2021-07-31",
+      "highlights": [
+        "Beratung von Kunden zur Nutzung von htmx mit Spring Boot.",
+        "Entwicklung von Webanwendungen mit Spring Boot + HTMX",
+        "Erstellung einer Angular + Spring Boot Webanwendung zur Auftragsverwaltung für ein Datenrettungsunternehmen"
+      ],
+      "location": "Stuttgart, Baden-Württemberg, Deutschland"
+    },
+    {
+      "name": "Unabhängiger Speaker & Trainer",
+      "position": "Speaker & Trainer",
+      "startDate": "2023-01-01",
+      "highlights": [
+        "Durchführung von Workshops und Vorträgen über serverseitige Webentwicklung mit htmx und Spring auf internationalen Konferenzen und User Groups",
+        "Workshops: [Spring I/O 2024 Barcelona](https://2024.springio.net/sessions/building-server-side-web-applications-with-htmx-workshop/), [Java Forum Stuttgart](https://www.java-forum-stuttgart.de/workshops/building-server-side-web-applications-with-htmx/), [Devoxx Belgium Antwerp](https://devoxx.be/talk/?id=1646)",
+        "Vorträge: [Jug Saxony Day Dresden](https://jugsaxony.org/day/programm/details/148), [JavaZone Oslo](https://2024.javazone.no/program/28528536-99c2-4bb9-a539-e225b62d6c56) ([recording](https://vimeo.com/1006536145)), [Java Forum Stuttgart](https://www.java-forum-stuttgart.de/vortraege/building-server-side-web-applications-with-htmx/), [JUG Hamburg](https://www.meetup.com/jug-hamburg/events/302020144/?eventOrigin=group_events_list), [JUG Frankfurt](https://jugf.github.io/posts/putting-the-view-of-mvc-into-a-spring-bean-with-htmx-26-06-2024/), [eJUG Austria Linz](https://www.meetup.com/enterprise-java-user-group-austria/events/300475644/), [JUG Stuttgart](https://www.jugs.org/veranstaltungen/putting-the-view-of-mvc-into-a-spring-bean-with-htmx/), [JUG Paderborn](https://jug-pb.gitlab.io/blog/2023/rapid-server-side-development.html), [Spring I/O 2023 Barcelona](https://2023.springio.net/sessions/rapid-server-side-full-stack-web-development-with-viewcomponents-and-htmx/) ([recording](https://www.youtube.com/watch?v=DPAtQU-erM4))"
+      ]
+    },
+    {
+      "name": "alanda",
+      "position": "Softwareentwickler",
+      "startDate": "2023-12-31",
+      "endDate": "2025-04-30",
+      "highlights": [
+        "Migration eines Enterprise-Frontends von Angular zu htmx mit Spring ViewComponent",
+        "Aufbau einer erweiterbaren Enterprise-Automatisierungsplattform auf Basis von Camunda 7",
+        "Entwicklung einer performanten, generischen Datenabfrage mit Hibernate"
+      ],
+      "url": "https://www.linkedin.com/company/alanda-io/",
+      "location": "Stuttgart, Baden-Württemberg, Deutschland"
+    },
+    {
+      "name": "mimacom ag",
+      "position": "Junior Softwareentwickler für Prozessautomatisierung",
+      "startDate": "2022-07-31",
+      "endDate": "2023-10-31",
+      "highlights": [
+        "Analyse und Modellierung von Geschäftsprozessen in BPMN",
+        "Integration von Services in BPMN-Prozesse",
+        "Entwicklung von Services auf Basis von Java und Spring Framework",
+        "Kundenabsprachen und Umsetzung von Anforderungen"
+      ],
+      "url": "https://www.linkedin.com/company/mimacom/",
+      "location": "Stuttgart, Baden-Württemberg, Deutschland"
+    },
+    {
+      "name": "USU Solutions",
+      "position": "Fachinformatiker Anwendungsentwicklung",
+      "startDate": "2020-09-30",
+      "endDate": "2022-07-31",
+      "highlights": [
+        "Entwicklung eines Continuous-Delivery-Systems für Subanwendungen einer ITSM-Plattform (GitLab CI/CD, Spring Boot, S3 Object Storage)",
+        "Installation von Subanwendungen auf der ITSM-Plattform über GitLab API, YAML und GraphQL",
+        "Deployment von Managementdiensten und Frontends mittels Helm-Charts",
+        "Evaluierung der Flowable Business Process Engine und deren Integration mit RabbitMQ"
+      ],
+      "url": "https://www.linkedin.com/company/usu-solutions-dach/"
+    },
+    {
+      "name": "USU GmbH",
+      "position": "Duales Studium Informatik",
+      "startDate": "2019-10-31",
+      "endDate": "2020-09-30",
+      "highlights": [
+        "Entwicklung eines Gradle Dependency Management Pipeline Tools (Spring Boot, Kotlin, Angular) zur Vermeidung von nicht-kommerziellen Lizenzen"
+      ],
+      "url": "https://www.linkedin.com/company/usu-solutions-dach/",
+      "location": "Möglingen"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Berufliches Schulzentrum Bietigheim",
+      "area": "Informationstechnik",
+      "studyType": "Fachinformatiker Anwendungsentwicklung",
+      "startDate": "2020-10-31",
+      "endDate": "2022-07-31",
+      "score": "Bestanden",
+      "courses": []
+    },
+    {
+      "institution": "Tauranga Boy's College",
+      "area": "",
+      "studyType": "International Student",
+      "startDate": "2015-12-31",
+      "endDate": "2016-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Karl-Arnold-Schule",
+      "area": "",
+      "studyType": "Abitur",
+      "startDate": "2016-12-31",
+      "endDate": "2019-12-31",
+      "score": "1,4",
+      "courses": []
+    },
+    {
+      "institution": "Duale Hochschule Baden-Württemberg",
+      "area": "Informatik",
+      "studyType": "",
+      "startDate": "2019-12-31",
+      "endDate": "2020-12-31",
+      "score": "Abgebrochen",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Spring Certified Professional 2023",
+      "issuer": "Broadcom",
+      "startDate": "2023-06-30",
+      "url": "https://www.credly.com/badges/5d9d92ac-9e2b-4855-9c78-08e713987f5c"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Einsatz des Spring Authorization Servers als Authentifizierungslösung auf Koyeb",
+      "publisher": "koyeb.com",
+      "releaseDate": "2024-01-04",
+      "summary": "In diesem Leitfaden zeige ich, wie man eine Anwendung erstellt, bei der Identität und Autorisierung vom Spring Authorization Server bereitgestellt werden.",
+      "url": "https://www.koyeb.com/tutorials/using-spring-authorization-server-as-an-auth-solution-on-koyeb"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Deutsch",
+      "fluency": "Muttersprache"
+    },
+    {
+      "language": "Englisch",
+      "fluency": "Fließend"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [
+    {
+      "name": "Spring ViewComponent",
+      "startDate": "2023-02-20",
+      "description": "Spring ViewComponent ermöglicht es, typsichere, wiederverwendbare und gekapselte serverseitige UI-Komponenten zu erstellen.",
+      "url": "https://github.com/tschuehly/spring-view-component"
+    },
+    {
+      "name": "HTMX Supabase Spring Boot Starter",
+      "startDate": "2022-10-16",
+      "description": "Einfache Integration von Supabase-Authentifizierung in Ihr Spring Boot + htmx Projekt.",
+      "url": "https://github.com/tschuehly/htmx-supabase-spring-boot-starter"
+    },
+    {
+      "name": "Website für eine Gaming-Community",
+      "startDate": "2020-05-15",
+      "endDate": "2021-02-19",
+      "description": "Die Website der Rainbow Six Siege Community \"Xperience\" bietet ein umfassendes Content-Management-System, Benutzerverwaltung mit rollenbasierter Zugriffskontrolle sowie Funktionen zur Verwaltung von Mitgliedern, Teams und Matches. Wichtige Komponenten umfassen die Bearbeitung von Benutzerprofilen, die Verfolgung von Wettkämpfen und die Anzeige von Nachrichten.",
+      "url": "https://github.com/tschuehly/gcwebx"
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
